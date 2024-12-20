@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title> coffee paradise </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+    <script src="script.js"></script>
+
+</head>
+
+<header>
+    <nav>
+        <h1> name of coffee! </h1>
+    </nav>
+</header>
+
+<body> 
+
+    <div id="main-content">
+
+        <div id="make-a-coffee">
+            <img src="img/machine.png" alt="make a coffee!">
+            <button onclick="makeCoffee()"> make a coffee </button>
+        </div>
+
+        <div id="stats-window">
+        <div id="cafe-stats">
+            <div id="beans-number">
+                <img src="img/beans.png" alt="the new currency">
+                <p> 500 </p>
+            </div>
+            <div id="coffee-price">
+                <img src="img/coffee.png" alt="the new currency">
+                <p> 1 beans per coffee </p>
+            </div>
+            <div id="barista-stats">
+                <img src="img/baristas.png" alt="your minions">
+                <div id="barista-numbers"> 
+                    <p> 0 baristas <br> 0 coffees per second </p>
+                </div>
+            </div>
+        </div>
+        <div id="window-player">
+            <img src="img/gifs/coffee2.gif">
+        </div>
+        </div>
+
+        <div id="cafe-improvements">
+            <p> improve your café! </p>
+            <button onclick="hireBarista()"> <img src="img/hire.png"> hire a barista </button>
+            <button onclick="trainBaristas()"> <img src="img/train.png">  staff training </button>
+            <button onclick="improveQual()"> <img src="img/quality.png">  improve coffee quality </button>
+            <button onclick="improveCafe()"> <img src="img/coffee-player.png"> improve café decoration </button>
+        </div>
+
+    </div>
+</body>
+</html>

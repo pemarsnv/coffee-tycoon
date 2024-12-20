@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "SleepyMoody";
+    src: url("fonts/Sleepy Moody.otf") format("truetype");
+}
+
+
+
+body {
+    background-color: #AF8F6F;
+    font-family: "SleepyMoody", sans-serif;
+    color: #F8F4E1;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74512D;
+    position: sticky;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 5px;
+    top: 0;
+}
+
+#main-content {
+    display:flex;
+}
+
+
+#make-a-coffee {
+    background-color: #74512D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 25px;
+    width: 50%;
+    padding: 10px;
+}
+
+#make-a-coffee button {
+    font-size: 17px;
+    font-family: "SleepyMoody";
+    background-color: #F8F4E1;
+    color: #543310;
+    border: none;
+    border-radius: 10cm;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#make-a-coffee button {
+    font-size: 17px;
+    font-family: "SleepyMoody";
+    background-color: #F8F4E1;
+    color: #543310;
+    border: none;
+    border-radius: 10cm;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+#make-a-coffee button:hover {
+    transform: scale(1.05);
+}
+
+#make-a-coffee img {
+    width: 200px;
+    margin: 90px;
+    margin-bottom: 30px;
+}
+
+#stats-window {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#cafe-stats {
+    background-color: #74512D;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 25px;
+    height: 50%;
+    padding: 10px;
+}
+
+#window-player {
+    background-color: #F8F4E1;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    height: 30%;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+#window-player img {
+    margin: 10px;
+    width:260px;
+    height:140px;
+    border-radius: 25px;
+}
+
+#beans-number {
+    font-size: 18px;
+    font-family: "SleepyMoody";
+    background-color: #543310;
+    color: #F8F4E1;
+    border: none;
+    border-radius: 10cm;
+    padding: 7px;
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+#beans-number img {
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#coffee-price {
+    font-size: 18px;
+    color: #F8F4E1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+#coffee-price img {
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#barista-stats {
+    font-size: 18px;
+    color: #F8F4E1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+#barista-stats img {
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#barista-numbers {
+    margin: 0px
+}
+
+#cafe-improvements {
+    background-color: #74512D;
+    margin: 10px;
+    border-radius: 25px;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cafe-improvements p {
+    font-size: 20px;
+}
+
+
+#cafe-improvements button {
+    font-size: 17px;
+    font-family: "SleepyMoody";
+    background-color: #F8F4E1;
+    color: #543310;
+    border: none;
+    border-radius: 10cm;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+#cafe-improvements button:hover {
+    transform: scale(1.03);
+}
+
+#cafe-improvements button img {
+    width: 20px;
+    vertical-align: middle; 
+}

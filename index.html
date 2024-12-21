@@ -49,13 +49,31 @@
         </div>
 
         <div id="cafe-improvements">
-            <p> improve your café! </p>
-            <button onclick="hireBarista()"> <img src="img/hire.png"> hire a barista </button>
-            <button onclick="trainBaristas()"> <img src="img/train.png">  staff training </button>
-            <button onclick="improveQual()"> <img src="img/quality.png">  improve coffee quality </button>
-            <button onclick="improveCafe()"> <img src="img/coffee-player.png"> improve café decoration </button>
+        
+            <div class="improv-button">
+                <button onclick="hireBarista()"> <img src="img/hire.png"> </button>
+                <div class="info"> PRICE: 100 beans <br> hire a new barista (+1 barista) </div>
+            </div>
+            <div class="improv-button">
+                <button onclick="trainBaristas()"> <img src="img/train.png"> </button>
+                <div class="info"> PRICE: 100 beans <br> send your barista to barista school (+2 coffees per barista) </div>
+            </div>
+            <div class="improv-button">
+                <button onclick="improveQual()"> <img src="img/quality.png"> </button>
+                <div class="info"> PRICE: 100 beans <br> improve the quality of your coffee! (+2 beans per coffee) </div>
+            </div>
+            <div class="improv-button">
+                <button onclick="improveCafe()"> <img src="img/coffee-player.png"> </button>
+                <div class="info"> PRICE: 100 beans <br> decorate your cafe to get more tips! (+2 beans per coffee) </div>
+            </div>
         </div>
 
     </div>
+
+    <footer>
+        <a href="https://github.com/pemarsnv" target="_blank"> <img src="img/github.png">  my github! </a>
+    </footer>
+
 </body>
+
 </html>
